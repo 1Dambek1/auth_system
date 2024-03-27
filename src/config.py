@@ -20,9 +20,9 @@ class AuthJWTTokens(BaseModel):
     
 
 class Config(BaseSettings):
-    secret_key:str  = "sdfkjbgbdjnkfghkjdgkjfkglhjiledhgkjdhgkjhlhjdkghkjkhdassadS"
+    secret_key:str  
           
-    DB_URl:str = "postgres+asyncpg://postgres_test:KgHC4y8PNeR6iZtwooalIonOPF7qYoA6@dpg-co2149md3nmc73a2clc0-a/postgres_test_vgac"
+    DB_URl:str 
     
     jwt_keys:AuthJWTTokens  = AuthJWTTokens()
     
